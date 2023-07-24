@@ -1,5 +1,5 @@
 import { Box, Typography } from "@mui/material";
-import { tokens } from "../theme";
+import { tokens } from "../Theme";
 import { useTheme } from "@emotion/react";
 
 const Header = ({ title, subTitle }) => {

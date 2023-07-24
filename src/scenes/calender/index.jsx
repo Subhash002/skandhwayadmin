@@ -14,7 +14,7 @@ import {
 } from "@mui/material";
 
 import Header from "../../components/Header";
-import { tokens } from "../../theme";
+import { tokens } from "../../Theme";
 import { useState } from "react";
 
 const Calendar = () => {
