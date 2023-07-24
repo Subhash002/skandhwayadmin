@@ -1,6 +1,4 @@
-/* eslint-disable no-unused-vars */
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
-import { tokens } from "../../theme";
 import { mockTransactions } from "../../data/mockData";
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
@@ -16,6 +14,7 @@ import {
   PointOfSaleSharp,
   TrafficOutlined,
 } from "@mui/icons-material";
+import { tokens } from "../../Theme";
 const Dashboard = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
